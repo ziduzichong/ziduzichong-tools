@@ -9,7 +9,10 @@
     {
       "name": "dev-workflow",
       "version": "1.0.0",
-      "source": "https://github.com/ziduzichong/dev-workflow.git",
+      "source": {
+        "source": "github",
+        "repo": "ziduzichong/dev-workflow"
+      },
       "description": "7阶段全流程开发编排：规划→架构审查→TDD编码→系统化调试→代码审查→优化→文档生成。支持 C/C++/Python/TypeScript/Go/Rust/Java/STM32"
     }
   ]
